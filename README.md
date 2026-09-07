@@ -1,5 +1,3 @@
-# aral-sea-data-tracker
-A Python-based open-source tool analyzing historical environmental data and water surface loss of the Aral Sea.
 # Aral Sea Climate & Ecological Data Tracker 🌊💻
 
 A lightweight, open-source Python project designed to track, visualize, and analyze historical environmental metrics of the Aral Sea region.
@@ -21,3 +19,9 @@ The Aral Sea disaster is one of the most severe ecological crises in Central Asi
 1. Clone the repository:
    ```bash
    git clone [https://github.com/YOUR_USERNAME/aral-sea-data-tracker.git](https://github.com/YOUR_USERNAME/aral-sea-data-tracker.git)
+
+
+## Output Graph
+Below is the auto-generated chart illustrating the dramatic decrease in the Aral Sea's water surface area over the past decades:
+
+![Aral Sea Area Decline](aral_sea_decline.png)
