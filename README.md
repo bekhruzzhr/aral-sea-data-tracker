@@ -1,27 +1,44 @@
-# Aral Sea Climate & Ecological Data Tracker 🌊💻
+# 🌊 Aral Sea Climate & Ecological Data Tracker
 
-A lightweight, open-source Python project designed to track, visualize, and analyze historical environmental metrics of the Aral Sea region.
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Motivation
-The Aral Sea disaster is one of the most severe ecological crises in Central Asia. As a Computer Science student from Karakalpakstan, I developed this tool to leverage basic data analysis for raising environmental awareness and providing open datasets for youth-led coding initiatives.
+An open-source data analytics initiative based in Karakalpakstan, dedicated to monitoring historical water surface loss, soil salinization trends, and weather patterns in the Aral Sea region using Python.
 
-## Features
-- **Historical Water Area Analysis:** Tracks surface area loss from 1960 to present day.
-- **Data Visualization:** Generates automated graphical representations of desertification metrics.
-- **Future Scope:** Integrating satellite imagery data (NDVI index) to monitor soil salinity in Moynaq and surrounding districts.
+---
 
-## Tech Stack
-- Python 3
-- Matplotlib
-- Pandas
+## 📌 Project Overview
+The Aral Sea disaster is one of the most severe environmental crises in modern history. This repository bridges computer science and environmental monitoring by:
+* Aggregating historical climate metrics and satellite observations for Karakalpakstan.
+* Analyzing correlations between high temperatures, wind speeds, and toxic dust storm frequencies (PM10).
+* Translating raw datasets into accessible visual graphics to empower local youth and researchers.
 
-## How to Run
-1. Clone the repository:
+---
+
+## 📊 Visualizations & Research Findings
+
+### 1. Historical Water Area Decline
+Automation script depicting the progressive reduction of the Aral Sea's water surface area over past decades:
+
+![Aral Sea Area Decline](aral_research_chart.png)
+
+### 2. Nukus Climate & Dust Storm Correlation
+Analysis demonstrating the direct relationship between average monthly temperature peaks and dust storm occurrences in Nukus (Correlation Factor: **0.97**):
+
+![Nukus Temperature vs Dust Storms](nukus_climate_dust.png)
+
+---
+
+## 🛠️ Tech Stack & Dependencies
+* **Programming Languages:** Python 3.x
+* **Data Processing:** `pandas`
+* **Data Visualization:** `matplotlib`
+
+---
+
+## 🚀 How to Run Locally
+
+1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/aral-sea-data-tracker.git](https://github.com/YOUR_USERNAME/aral-sea-data-tracker.git)
-
-
-## Output Graph
-Below is the auto-generated chart illustrating the dramatic decrease in the Aral Sea's water surface area over the past decades:
-
-![Aral Sea Area Decline](aral_sea_decline.png)
+   git clone [https://github.com/bekhruzzhr/aral-sea-data-tracker.git](https://github.com/bekhruzzhr/aral-sea-data-tracker.git)
+   cd aral-sea-data-tracker
